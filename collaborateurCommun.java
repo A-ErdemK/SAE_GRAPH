@@ -23,5 +23,12 @@ import com.google.gson.JsonParser;
 
 
 public class collaborateurCommun {
+
+    public static Set<String, DefaultEdge> getCollaborateurCommun(Graph<String , DefaultEdge> graph , String sommet1 , String sommet2) {
+        Set<String> collab = new HashSet<>();
+        
+
+
+    }
     
 }
