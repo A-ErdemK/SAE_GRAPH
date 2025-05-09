@@ -21,7 +21,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class Fonction{
+public class Echauffement{
     public static Graph<String, DefaultEdge> convertir(String cheminFichier) {
         Graph<String, DefaultEdge> graphe = new SimpleGraph<>(DefaultEdge.class);
         String contenu = Files.readString(Paths.get(cheminFichier));
